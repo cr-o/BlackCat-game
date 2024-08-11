@@ -1,6 +1,4 @@
 ﻿image munchie_idle:
-    # "Characters/munchie_idle_tile000.png"
-    # 0.25
     "Characters/Munchie_idle.png"
     crop (0, 0, 47, 71)
     0.25
