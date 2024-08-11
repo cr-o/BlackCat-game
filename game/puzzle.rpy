@@ -27,10 +27,10 @@
 
 label reassemble_complete:
     scene bg exterior_orange
-    show munchie_idle at enlarge_and_left
+    show munchie_idle at left
     m "I did it!"
     hide munchie_idle
-    show munchie_napping at enlarge_and_left
+    show munchie_napping at left
     m "That took a lot out of me. Time for a nap."
     
 

@@ -2,7 +2,7 @@
 
 label start:
     scene bg exterior_blue
-    show munchie_idle at enlarge_and_left
+    show munchie_idle at left
     m "This is the beginning of my adventure."
     m "I see there is already a puzzle for me to solve!"
     $setup_puzzle()

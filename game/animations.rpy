@@ -6,99 +6,131 @@
 
 image munchie_idle:
     "Characters/Munchie_idle.png"
-    crop (0, 0, 47, 71)
+    crop (0, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (47, 0, 47, 71)
+    crop (235, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (94, 0, 47, 71)
+    crop (470, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (141, 0, 47, 71)
+    crop (705, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (188, 0, 47, 71)
+    crop (940, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (235, 0, 47, 71)
+    crop (1175, 0, 235, 355)
+    "Characters/Munchie_idle.png"
+    crop (1410, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (282, 0, 47, 71)
+    crop (1645, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (329, 0, 47, 71)
+    crop (1880, 0, 235, 355)
     0.25
     "Characters/Munchie_idle.png"
-    crop (376, 0, 47, 71)
-    0.25
-    "Characters/Munchie_idle.png"
-    crop (423, 0, 47, 71)
+    crop (2115, 0, 235, 355)
     0.25
     repeat
 
 image munchie_napping:
     "Characters/Munchie_nap.png"
-    crop (0, 0, 69, 43)
+    crop (0, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (69, 0, 69, 43)
+    crop (345, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (138, 0, 69, 43)
+    crop (690, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (207, 0, 69, 43)
+    crop (1035, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (276, 0, 69, 43)
+    crop (1380, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (345, 0, 69, 43)
+    crop (1725, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (414, 0, 69, 43)
+    crop (2070, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (483, 0, 69, 43)
+    crop (2415, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (552, 0, 69, 43)
+    crop (2760, 0, 345, 215)
     0.25
     "Characters/Munchie_nap.png"
-    crop (621, 0, 69, 43)
+    crop (3105, 0, 345, 215)
     0.25
     repeat
 
 image munchie_walking:
     "Characters/Munchie_walk.png"
-    crop (0, 0, 87, 66)
+    crop (0, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (87, 0, 87, 66)
+    crop (435, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (174, 0, 87, 66)
+    crop (870, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (261, 0, 87, 66)
+    crop (1305, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (348, 0, 87, 66)
+    crop (1740, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (435, 0, 87, 66)
+    crop (2175, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (522, 0, 87, 66)
+    crop (2610, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (609, 0, 87, 66)
+    crop (3045, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (696, 0, 87, 66)
+    crop (3480, 0, 435, 330)
     0.35
     "Characters/Munchie_walk.png"
-    crop (783, 0, 87, 66)
+    crop (3915, 0, 435, 330)
     0.35
+    repeat
+
+image mrkitty_idle:
+    "Characters/MrKitty_idle.png"
+    crop (0, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (235, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (470, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (705, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (940, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (1175, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (1410, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (1645, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (1880, 0, 235, 370)
+    0.25
+    "Characters/MrKitty_idle.png"
+    crop (2115, 0, 235, 370)
+    0.25
     repeat
