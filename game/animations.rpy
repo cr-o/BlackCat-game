@@ -1,4 +1,10 @@
-﻿image munchie_idle:
+﻿transform enlarge_and_left:
+    zoom 8.0  # Scale the image by a factor of 2
+    xpos 0.01  # Position the image at the left edge
+    ypos 0.45  # Optionally, adjust the vertical position (0.5 centers it vertically)
+    anchor (0, 0)  # Anchor the image to the top-left corner
+
+image munchie_idle:
     "Characters/Munchie_idle.png"
     crop (0, 0, 47, 71)
     0.25

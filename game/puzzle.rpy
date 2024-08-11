@@ -26,9 +26,13 @@
                 renpy.jump("reassemble_complete")
 
 label reassemble_complete:
-    scene bg BGT_5
+    scene bg exterior_orange
+    show munchie_idle at enlarge_and_left
     m "I did it!"
-    m "Now let's see what it says ..."
+    hide munchie_idle
+    show munchie_napping at enlarge_and_left
+    m "That took a lot out of me. Time for a nap."
+    
 
 screen reassemble_puzzle:
     image "UI/puzzle-background.png"
