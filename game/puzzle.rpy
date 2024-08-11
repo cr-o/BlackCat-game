@@ -26,14 +26,14 @@
                 renpy.jump("reassemble_complete")
 
 label reassemble_complete:
-    scene room
+    scene bg room
     m "I did it!"
     m "Now let's see what it says ..."
 
 screen reassemble_puzzle:
-    image "background.png"
+    image "UI/puzzle-background.png"
     frame:
-        background "puzzle-frame.png"
+        background "UI/puzzle-frame.png"
         xysize full_page_size
         anchor(0.5, 0.5)
         pos(650, 535)
