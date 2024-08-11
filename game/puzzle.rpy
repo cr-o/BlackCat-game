@@ -52,7 +52,7 @@ screen reassemble_puzzle:
                 anchor(0.5, 0.5)
                 focus_mask True
                 drag_raise True
-                image "Pieces/piece-%s.png" % (i + 1)
+                image "Pieces/Puzzle/piece-%s.png" % (i + 1)
 
         # Snappable spots to drag to.
         for i in range(page_pieces):
@@ -64,10 +64,10 @@ screen reassemble_puzzle:
                 pos piece_coordinates[i]
                 anchor(0.5, 0.5)
                 focus_mask True
-                image "Pieces/piece-%s.png" % (i + 1) alpha 0.0 # Have the alpha at a higher value when first placing the pieces to make sure it looks correct.
+                image "Pieces/Pieces/piece-%s.png" % (i + 1) alpha 0.0 # Have the alpha at a higher value when first placing the pieces to make sure it looks correct.
 
-default page_pieces = 12 # Amount of pieces for this puzzle.
-default full_page_size = (711, 996)
-default piece_coordinates = [(451, 149), (719, 139), (868, 238), (421, 399), (658, 318), (700, 488), (796, 538), (453, 718), (776, 773), (464, 925), (743, 958), (921, 888)] # The correct coordinates for each piece.
+default page_pieces = 4 # Amount of pieces for this puzzle.
+default full_page_size = (600, 500)
+default piece_coordinates = [(451, 150), (719, 139), (98, 369), (354, 367)] # The correct coordinates for each piece.
 default initial_piece_coordinates = [] # Will be filled with random initial locations of the pieces.
 default finished_pieces = 0 # Keeps track of the amount of pieces that have been placed correctly.
