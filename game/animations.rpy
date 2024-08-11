@@ -1,10 +1,10 @@
 ﻿transform slight_left:
-    xpos 0.01  # Position the image at the left edge
-    ypos 0.6  # Optionally, adjust the vertical position (0.5 centers it vertically)
+    xpos 0.03
+    ypos 0.6
 
 transform slight_low:
-    xpos 0.005  # Position the image at the left edge
-    ypos 0.7  # Optionally, adjust the vertical position (0.5 centers it vertically)
+    xpos 0.015
+    ypos 0.7
 
 image munchie_idle:
     "Characters/Munchie_idle.png"
