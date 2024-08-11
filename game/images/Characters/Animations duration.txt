@@ -1,0 +1,3 @@
+Idle animations: 250 miliseconds
+Walking animation: 350 miliseconds
+Nap animation: 250 miliseconds
