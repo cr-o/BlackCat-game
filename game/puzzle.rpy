@@ -26,7 +26,7 @@
                 renpy.jump("reassemble_complete")
 
 label reassemble_complete:
-    scene bg room
+    scene bg BGT_5
     m "I did it!"
     m "Now let's see what it says ..."
 
