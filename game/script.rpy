@@ -13,6 +13,7 @@ define grip_size = 75
 define active_area_size = puzzle_piece_size - (grip_size * 2)
 
 label start:
+    play music "dreamland_lullaby.wav"
     scene bg interior_one
     show munchie_napping at slight_low
     m "{i}z z z . . .{/i}"
@@ -153,8 +154,11 @@ label start:
     "But beyond her window stands a tuxedo cat nearby, watching her with a Cheshire smile on his face..."
     show mrkitty_idle at stand_window
     pause
+    show black with dissolve
+
+    call screen credits()
     return
-    
+
     
 label start_puzzle:
     centered "{nw}"
