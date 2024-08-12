@@ -26,7 +26,6 @@
                 renpy.jump("reassemble_complete")
 
 label reassemble_complete:
-    $ renpy.pause(1)
     scene bg exterior_orange
     show munchie_idle at slight_left
     m "I did it!"

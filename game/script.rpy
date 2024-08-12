@@ -26,5 +26,6 @@ label start:
     # and call puzzle label
     call puzzle
     # call screen reassemble_puzzle
+    scene bg exterior_orange with dissolve
     call reassemble_complete
     return
