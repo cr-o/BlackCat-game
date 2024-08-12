@@ -18,6 +18,10 @@ transform center_above:
     xpos 0.45
     ypos 0.4
 
+transform stand_window:
+    xpos 0.45
+    ypos 0.4
+
 image munchie_idle:
     "Characters/Munchie_idle.png"
     crop (0, 0, 235, 355)
