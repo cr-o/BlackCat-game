@@ -40,7 +40,7 @@ screen reassemble_puzzle:
         background "UI/puzzle-frame.png"
         xysize full_page_size
         anchor(0.5, 0.5)
-        pos(650, 535)
+        pos(1395, 434)
 
     draggroup:
         # Group of draggable pieces, and the spots they can be dragged to.
@@ -68,6 +68,6 @@ screen reassemble_puzzle:
 
 default page_pieces = 4 # Amount of pieces for this puzzle.
 default full_page_size = (600, 500)
-default piece_coordinates = [(451, 150), (719, 139), (98, 369), (354, 367)] # The correct coordinates for each piece.
+default piece_coordinates = [(1286, 405), (1545, 341), (1252, 540), (1485, 524)] # The correct coordinates for each piece.
 default initial_piece_coordinates = [] # Will be filled with random initial locations of the pieces.
 default finished_pieces = 0 # Keeps track of the amount of pieces that have been placed correctly.
