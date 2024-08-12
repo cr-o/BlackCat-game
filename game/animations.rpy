@@ -2,9 +2,17 @@
     xpos 0.03
     ypos 0.6
 
+transform slight_right:
+    xpos 0.86
+    ypos 0.6
+
 transform slight_low:
-    xpos 0.015
+    xpos 0.03
     ypos 0.7
+
+transform center_above:
+    xpos 0.45
+    ypos 0.4
 
 image munchie_idle:
     "Characters/Munchie_idle.png"

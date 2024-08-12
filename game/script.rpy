@@ -1,6 +1,9 @@
 ﻿##### directly lifted from here https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=16151#p294340
 
 define m = Character("Munchie")
+define c = Character("Cat")
+define mrk = Character("Mr. Kitty")
+
 default grid_width = 3
 default grid_height = 3
 define puzzle_field_size = 650
@@ -10,7 +13,7 @@ define grip_size = 75
 define active_area_size = puzzle_piece_size - (grip_size * 2)
 
 label start:
-    scene bg exterior_blue
+    scene bg interior_one
     show munchie_napping at slight_low
     m "{i}z z z . . .{/i}"
     m "{i}. . .{/i}"
@@ -46,7 +49,41 @@ label start:
     "Then, with one final leap – and a wistful look at her bed – she steps outside."
 
 
+    scene bg exterior_blue
+    "Striding quietly about the deeply shadowed compound of the house, Munchie listens quietly to the eerie stillness about her."
+    "Crickets chirp about, and so does a far-off owl hooting."
+    show munchie_idle at slight_left
+    m "{i}What exactly am I looking for…?{/i}"
+    hide munchie_idle
+    "But what surprises her the most is to see the outline of a portly creature perched atop a rickety, wrought-iron fence"
+    "It sits still, gazing at the starry sky above."
+    show munchie_walking at slight_left
+    hide munchie_walking
+    "She isn’t sure what she is looking at."
+    show munchie_walking at slight_left
+    m "{i}What is that…?{/i}"
+    hide munchie_walking
+    "Gingerly, she leaps onto the fence and steps closer."
+    show mrkitty_idle at center_above
+    "The creature turns out to be a black and white tuxedo cat."
+    "And he watches her with his piercing yellow eyes."
+    hide mrkitty_idle
+    show munchie_idle at slight_left
+    show mrkitty_idle at slight_right
+    c "Well, well. Who dares tread the night?"
+    "The cat purrs in a deep tone."
+    "Munchie cocks her head at the cat, curious."
+    hide mrkitty_idle
+    m "Who are you?"
+    hide munchie_idle
+    "The cat’s lips stretch into a smirk."
+    show mrkitty_idle at slight_right
 
+
+    return
+    
+    
+label start_puzzle:
     centered "{nw}"
 
     $ grid_width = 3
