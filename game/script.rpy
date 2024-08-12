@@ -22,29 +22,29 @@ label start:
     m "Ah, it’s still night, why did I wake up?"
     m "I was having such a blissful sleep."
     hide munchie_idle
-    "A gentle breeze wafts through the open window beside her, carrying with it the soft rustling of leaves, and the scent of something pleasant but…strange."
+    "A gentle breeze wafts through the open window beside her, carrying with it the soft rustling of leaves, and the scent of something pleasant but...strange."
     "Her whiskers twitch in anticipation at once."
     show munchie_idle at slight_left
-    m "That smells lovely…like dewy grass and something earthy…?"
+    m "That smells lovely...like dewy grass and something earthy...?"
     hide munchie_idle
-    "Feeling the sleep rub from her eyes, Munchie began to contemplate seriously"
+    "Feeling the sleep rub from her eyes, Munchie began to contemplate seriously."
     show munchie_idle at slight_left
-    m "Tonight feels like a good time to venture out…"
+    m "Tonight feels like a good time to venture out..."
     hide munchie_idle
     "Though feeling snug in her bed, her mind wanders to the world beyond her cozy bed."
     "She didn’t want to admit that the stories Sarah and James – her caretakers – told her every evening were beginning to get into her head."
     show munchie_idle at slight_left
     m "{i}Sigh{/i}"
-    m "I guess my mother was right after all…"
+    m "I guess my mother was right after all..."
     m "That one day, I’d long for the adventure that ran deep in our family blood."
     hide munchie_idle
     "With a subtle flick of her tail, she leaps on all fours, yawning with her paw outstretched."
     show munchie_walking at walk_left
-    m "I guess I’m just as rambunctious as my siblings after all…"
+    m "I guess I’m just as rambunctious as my siblings after all..."
     hide munchie_walking
     "She takes a long look at the windowsill before she springs over to it."
     show munchie_walking at walk_left
-    m "Sarah and James must still be in their beds sleeping…"
+    m "Sarah and James must still be in their beds sleeping..."
     hide munchie_walking
     "Then, with one final leap – and a wistful look at her bed – she steps outside."
 
@@ -52,7 +52,7 @@ label start:
     "Striding quietly about the deeply shadowed compound of the house, Munchie listens quietly to the eerie stillness about her."
     "Crickets chirp about, and so does a far-off owl hooting."
     show munchie_idle at slight_left
-    m "{i}What exactly am I looking for…?{/i}"
+    m "{i}What exactly am I looking for...?{/i}"
     hide munchie_idle
     "But what surprises her the most is to see the outline of a portly creature perched atop a rickety, wrought-iron fence"
     "It sits still, gazing at the starry sky above."
@@ -60,7 +60,7 @@ label start:
     hide munchie_walking
     "She isn’t sure what she is looking at."
     show munchie_walking at walk_left
-    m "{i}What is that…?{/i}"
+    m "{i}What is that...?{/i}"
     hide munchie_walking
     "Gingerly, she leaps onto the fence and steps closer."
     show mrkitty_idle at center_above
@@ -103,22 +103,22 @@ label start:
     "Mr. Kitty rouses suddenly from his sitting position, causing Munchie to flinch."
     "He grins at Munchie’s reaction, turning his yellow eyes back to her."
     show mrkitty_idle at slight_right
-    mrk "Say…since you’re looking to see new things, how about I tell you what I’ve seen?"
+    mrk "Say...since you’re looking to see new things, how about I tell you what I’ve seen?"
     hide mrkitty_idle
     show munchie_idle at slight_left
     "Munchie shudders at what the cat must have in store for her."
     hide munchie_idle
     show mrkitty_idle at slight_right
-    mrk "How about…a monster?"
+    mrk "How about...a monster?"
     hide mrkitty_idle
     show munchie_idle at slight_left
-    m "A monster…?"
+    m "A monster...?"
     hide munchie_idle
     "Munchie, whose eyes are as big as two green saucers, gazes warily at the cat, who looks delighted by his idea."
     show mrkitty_idle at slight_right
     mrk "Yes, a monster!"
-    mrk "A monster that is…"
-    mrk "…A giant refrigerator having a nap, four water bowls for legs, lasers for eyes! four of them! cat doors all over, runs very fast, and says HOOOOOONK HONK!"
+    mrk "A monster that is..."
+    mrk "...A giant refrigerator having a nap, four water bowls for legs, lasers for eyes! four of them! cat doors all over, runs very fast, and says HOOOOOONK HONK!"
     mrk "I have seen two or more of these monsters crash into each other."
     mrk "When that happens, DO NOT stay close."
     mrk "Parts of them can fly past you!"
@@ -138,7 +138,7 @@ label start:
     show munchie_idle at slight_left
     m "{i}What was that...?{/i}"
     hide munchie_idle
-    "Quickly surveying her empty room, she realizes that…"
+    "Quickly surveying her empty room, she realizes that..."
     show munchie_idle at slight_left
     m "{i}Phew. It was all a dream.{/i}"
     hide munchie_idle
@@ -146,7 +146,7 @@ label start:
     "Sighing, she shakes off a slight shiver."
     show munchie_walking at slight_left
     m "{i}Good thing it was not real. It never happened.{/i}"
-    m "{i}Thinking about that cat gives me the creeps…{/i}"
+    m "{i}Thinking about that cat gives me the creeps...{/i}"
     hide munchie_walking
     "She nestles back into her plush bed, relieved."
     show munchie_napping at slight_low
