@@ -1,4 +1,6 @@
-﻿define m = Character("Munchie")
+﻿##### directly lifted from here https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=16151#p294340
+
+define m = Character("Munchie")
 default grid_width = 3
 default grid_height = 3
 define puzzle_field_size = 650
