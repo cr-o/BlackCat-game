@@ -2,6 +2,10 @@
     xpos 0.03
     ypos 0.6
 
+transform walk_left:
+    xpos 0.003
+    ypos 0.62
+
 transform slight_right:
     xpos 0.86
     ypos 0.6

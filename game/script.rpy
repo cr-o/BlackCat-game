@@ -39,11 +39,11 @@ label start:
     m "That one day, I’d long for the adventure that ran deep in our family blood."
     hide munchie_idle
     "With a subtle flick of her tail, she leaps on all fours, yawning with her paw outstretched."
-    show munchie_walking at slight_left
+    show munchie_walking at walk_left
     m "I guess I’m just as rambunctious as my siblings after all…"
     hide munchie_walking
     "She takes a long look at the windowsill before she springs over to it."
-    show munchie_walking at slight_left
+    show munchie_walking at walk_left
     m "Sarah and James must still be in their beds sleeping…"
     hide munchie_walking
     "Then, with one final leap – and a wistful look at her bed – she steps outside."
@@ -57,10 +57,10 @@ label start:
     hide munchie_idle
     "But what surprises her the most is to see the outline of a portly creature perched atop a rickety, wrought-iron fence"
     "It sits still, gazing at the starry sky above."
-    show munchie_walking at slight_left
+    show munchie_walking at walk_left
     hide munchie_walking
     "She isn’t sure what she is looking at."
-    show munchie_walking at slight_left
+    show munchie_walking at walk_left
     m "{i}What is that…?{/i}"
     hide munchie_walking
     "Gingerly, she leaps onto the fence and steps closer."
