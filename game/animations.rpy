@@ -19,8 +19,8 @@ transform center_above:
     ypos 0.4
 
 transform stand_window:
-    xpos 0.45
-    ypos 0.4
+    xpos 0.55
+    ypos 0.42
 
 image munchie_idle:
     "Characters/Munchie_idle.png"

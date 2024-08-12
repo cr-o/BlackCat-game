@@ -1,8 +1,8 @@
 ﻿##### directly lifted from here https://lemmasoft.renai.us/forums/viewtopic.php?f=51&t=16151#p294340
 
 define m = Character("Munchie")
-define c = Character("Cat")
-define mrk = Character("Mr. Kitty")
+define c = Character("Cat", color="#c492de")
+define mrk = Character("Mr. Kitty", color="#c492de")
 
 default grid_width = 3
 default grid_height = 3
@@ -127,6 +127,7 @@ label start:
     "She tries her best to imagine the refrigerator with bowl feet and laser eyes..."
     show munchie_idle at slight_left
     m "{i}What could it possibly look like?{/i}"
+    show black with dissolve
     call start_puzzle
     hide munchie_idle
 
@@ -142,16 +143,14 @@ label start:
     m "{i}Phew. It was all a dream.{/i}"
     hide munchie_idle
     "She glances briefly outside her window, where a thin ray of moonlight is streaming through into her room."
-    "Sighing, she shakes off a slight shiver"
+    "Sighing, she shakes off a slight shiver."
     show munchie_walking at slight_left
     m "{i}Good thing it was not real. It never happened.{/i}"
     m "{i}Thinking about that cat gives me the creeps…{/i}"
     hide munchie_walking
     "She nestles back into her plush bed, relieved."
     show munchie_napping at slight_low
-    hide munchie_napping
-    "But beyond her window, stands a tuxedo cat nearby, watching her with a Cheshire smile on his face..."
-    show munchie_napping at slight_low
+    "But beyond her window stands a tuxedo cat nearby, watching her with a Cheshire smile on his face..."
     show mrkitty_idle at stand_window
     pause
     return
